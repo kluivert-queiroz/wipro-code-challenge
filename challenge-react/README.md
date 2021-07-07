@@ -16,7 +16,7 @@ All the identification must be put in attribute `data-testid`.
 
 * **What should have?**
 
-  * Have must a title in top having text "To do list";
+  * Have must a title, identified by `title`, in top having text "To do list";
 
   * Have must an `input` to type a new task, this input will be identify as `task`;
 
