@@ -2,13 +2,15 @@
 
 You must make a to do list.
 
-# What should this do?
+## What should this do?
 
-Controlling a global state adding and checking a task to the listHow should be it.
+Controlling a global state adding and checking a task or removinving from the list
 
-This must have three cruscial functionality, add a new task and check a task as completed.
+## How should be it?
 
-# Requisites
+This must have three cruscial functionality, add a new task, check a task as completed and remove and task from the list.
+
+## Requisites
 
 All the identification must be put in attribute `data-testid`.
 
