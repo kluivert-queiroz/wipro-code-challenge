@@ -58,7 +58,10 @@ All the identification must be put in attribute `data-test-id`.
 
   * Whem removes a task, this task must be stay in the list, like when complete the task, but it shouldn't not count as completed;
 
-  * Check the template in directory `template/`.
+  * The screen must be like the bellow image:
+
+![image](https://user-images.githubusercontent.com/55498940/124767042-d5d4e400-df0d-11eb-8f89-6ea71d963c5e.png)
+
 
 ## How to starts
 
