@@ -1,4 +1,5 @@
 /**
+ * https://github.com/felipe-gustavo/wipro-code-challenge/tree/master/challenge-functions#1st-challenge-getvaluebypath
  *
  * @param {object} value Object to extract value
  * @param {string} path Path where are the value
