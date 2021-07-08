@@ -12,7 +12,7 @@ This must have three cruscial functionality, add a new task, check a task as com
 
 ## Requisites
 
-All the identification must be put in attribute `data-testid`.
+All the identification must be put in attribute `data-test-id`.
 
 * **What should have?**
 
@@ -40,7 +40,11 @@ All the identification must be put in attribute `data-testid`.
 
 * **Rules**
 
-  * The element `item-N`, (taks item), must have a special attribute called `data-teststatus`, that should be filled by following rules:
+  * After add a new task, the `input` must be empty and focused to next type;
+
+  * Both the `button` add task, and the type the `Enter` key in input must be adds the task;
+
+  * The element `item-N`, (taks item), must have a special attribute called `data-test-status`, that should be filled by following rules:
 
     * If not completed and not removed must be filled with `in-progress`;
 
@@ -58,13 +62,15 @@ All the identification must be put in attribute `data-testid`.
 
 ## How to starts
 
+Run `yarn` to install the packages.
+
 Do your code of your way, you can view your changes running `yarn start`.
 
 The page will reload if you make edits. You will also see any lint errors in the console.
 
 ## How to test it
 
-Just run `yarn cypress`, this will run all CI.
+Just run `yarn cypress:open`, and the cypress window, click in `todo-list.spec`.
 
 ## Important notes
 
